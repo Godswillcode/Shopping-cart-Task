@@ -30,7 +30,7 @@ function App() {
       <nav>
         <div className="container d-flex justify-content-around">
           <div className="product" onClick={() => navigateTo(PAGE_PRODUCTS)}>
-            Our Products
+            Products
           </div>
           <button className="cart" onClick={() => navigateTo(PAGE_CART)}>
             <i className="fas fa-cart-plus" /> My cart{" "}
