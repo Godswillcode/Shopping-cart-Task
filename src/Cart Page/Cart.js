@@ -69,7 +69,7 @@ export default function Cart({ cart, setCart }) {
                         style: "currency",
                         currency: "USD",
                       })
-                      .format(price)}
+                      }
                   </h4>
                 </div>
 
